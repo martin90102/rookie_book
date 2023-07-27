@@ -1,5 +1,5 @@
 /**
- * @file img_segment.cpp
+ * @file watershed.cpp
  * @author luan yeming
  * @brief  新手教材(应用)
  * @version 0.1
