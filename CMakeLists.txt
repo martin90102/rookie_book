@@ -14,7 +14,8 @@ set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 # 批量处理需要编译的文件
 file(GLOB SOURCES   ${PROJECT_SOURCE_DIR}/src/image_segment/*.cpp
                     ${PROJECT_SOURCE_DIR}/src/image_enhancement/*.cpp
-                    ${PROJECT_SOURCE_DIR}/src/image_features/*.cpp)
+                    ${PROJECT_SOURCE_DIR}/src/image_features/*.cpp
+                    ${PROJECT_SOURCE_DIR}/src/camera_related/*.cpp)
 foreach (SOURCE ${SOURCES})
     # 获取文件名
     get_filename_component(SOURCE_NAME ${SOURCE} NAME_WE)
